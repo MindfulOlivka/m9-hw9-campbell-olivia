@@ -132,19 +132,17 @@ footer {
   color: var(--off-white);
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 500px) {
 
   nav > a.logo {
     margin: auto;
+    padding-left: 20px;
     padding-bottom: 20px;
-   
   }
 
   nav {
     display:grid;
     text-align: center;
-
-  
   }
 
   header a {
@@ -155,8 +153,6 @@ footer {
     font-size: 1.5rem;
     padding: 0px 30px;
   }
-
-  
 
   main > article {
     padding:10px 30px;
